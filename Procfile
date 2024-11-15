@@ -1,1 +1,1 @@
-web: gunicorn smart_campus.wsgi --log-file -
+web: python admin-smart-campus/manage.py runserver 0.0.0.0:$PORT
